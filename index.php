@@ -20,7 +20,7 @@
 require 'vendor/autoload.php';
 
 $client = new Zelenin\Telegram\Bot\Api('263596259:AAExG585xuySq35J-lXRmMxXcVNOFQE12Uc'); // Set your access token
-$url = ''; // URL RSS feed
+$url = 'https://majholalhovie.herokuapp.com'; // URL RSS feed
 $update = json_decode(file_get_contents('php://input'));
 
 //your app
